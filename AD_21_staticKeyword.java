@@ -33,7 +33,7 @@
 // a "static" method can access only static data. it cannot access non-static data (instance data)
 // a "static" method can call only other static methods and cannot call a non-static method.
 // a "static" method cannot refer to "this" or "super" keyword in anyway.
-// A static methods can call only other stataic methods and cannot call a non-static method.
+// A static methods can call only other stataic methods and cannot call a non-static methood 
 class Test{
     static void print(){
         System.out.println("this is test class");
